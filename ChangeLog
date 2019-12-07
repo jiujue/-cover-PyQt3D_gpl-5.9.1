@@ -1,0 +1,386 @@
+2017-11-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Released as v5.9.1.
+	[a63a7e6f772d] [5.9.1] <5.9-maint>
+
+	* rb-product:
+	Update the minimum PyQt version.
+	[d1b5a554a052] <5.9-maint>
+
+2017-10-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Updated for Qt v5.9.2.
+	[2a8736af9aad] <5.9-maint>
+
+2017-09-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/basicshapes-py.py:
+	Fixed the examples for recent changes in Qt3DWindow.
+	[c9fe0954ba43] <5.9-maint>
+
+2017-09-05  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* sip/Qt3DRender/qvector.sip:
+	Removed all calls to sipCanConvertToEnum().
+	[3b129a4c3d89] <5.9-maint>
+
+2017-08-31  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product, sip/Qt3DRender/qvector.sip:
+	Removed all calls to SIPLong_AsLong().
+	[fd399273876f] <5.9-maint>
+
+2017-07-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.9 for changeset 9feed080926b
+	[2602fdfb807c]
+
+	* NEWS:
+	Released as v5.9.
+	[9feed080926b] [5.9]
+
+	* rb-product:
+	Updated the PyQt5 dependency to v5.9.
+	[844caf1a233a]
+
+2017-07-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Updated for Qt v5.9.1.
+	[ae7dce256c88]
+
+2017-06-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Fixed the installation of the .sip files.
+	[ea60730e3db2]
+
+2017-06-05  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp, Qt3DRender.versions:
+	Completed the support for Qt v5.9.0.
+	[e0ef881767aa]
+
+2017-06-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Updated the existing Qt3DRender classes for Qt v5.9.0.
+	[5a93e54cb4f0]
+
+	* PyQt3D.msp, Qt3DExtras.versions:
+	Updated Qt3DExtras for Qt v5.9.0.
+	[29fd0633dc30]
+
+	* PyQt3D.msp:
+	Updated Qt3DCore for Qt v5.9.0.
+	[5d5587d27e32]
+
+	* .hgignore, PyQt3D.msp:
+	Removed a TODO item that has been dropped in Qt v5.9.0.
+	[d06a76c61e1c]
+
+2017-02-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.8 for changeset fc35a9d2ce3d
+	[b0eb6a91b365]
+
+	* NEWS:
+	Released as v5.8.
+	[fc35a9d2ce3d] [5.8]
+
+2017-01-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp, Qt3DInput.versions, Qt3DRender.versions, rb-product:
+	Updated to Qt v5.8.0.
+	[ba8475c355ae]
+
+	* Merged the 5.7-maint branch.
+	[cad6c884dcbb]
+
+2016-12-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 5.7.1 for changeset 0a22efa4d6f4
+	[a54ef487fb41] <5.7-maint>
+
+	* NEWS:
+	Released as v5.7.1.
+	[0a22efa4d6f4] [5.7.1] <5.7-maint>
+
+2016-12-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Updated for Qt v5.7.1.
+	[9b1d1f0340c6]
+
+2016-10-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* sip/Qt3DCore/qsharedpointer.sip:
+	Improved the support for QSharedPointer.
+	[c256a6ada8fc]
+
+2016-10-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Updated configure.py to adopt the current style.
+	[3ea40973e009]
+
+	* PyQt3D.msp:
+	Fixed QTextureImage.
+	[bafbcb849149]
+
+2016-10-24  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp, Qt3DCore.versions, Qt3DExtras.versions,
+	Qt3DInput.versions, Qt3DLogic.versions, Qt3DRender.versions:
+	Added all the sub-class convertor code.
+	[90591fc0f4cf]
+
+	* PyQt3D.msp, sip/Qt3DRender/qvector.sip:
+	Completed Qt3DRender.
+	[bf7f533b96d2]
+
+	* PyQt3D.msp:
+	Completed Qt3DInput.
+	[e1b3217af070]
+
+	* PyQt3D.msp:
+	Completed Qt3DCore.
+	[0e5539e3f939]
+
+2016-10-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Completed the support for Qt3DExtras.
+	[bf759244babb]
+
+2016-10-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Completed the initial pass of Qt3Render.
+	[7b8b0b7e7abe]
+
+	* PyQt3D.msp:
+	More Qt3DRender support.
+	[16ae795380ae]
+
+	* PyQt3D.msp:
+	More support for Qt3DRender.
+	[b865623b99f6]
+
+2016-10-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Implemented more of the Qt3DRender module.
+	[103c48ea8df4]
+
+2016-10-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	The Qt3DInput module now builds.
+	[405017432d82]
+
+2016-10-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	More Qt3DInput fixes.
+	[19264ad72c36]
+
+	* PyQt3D.msp:
+	Implemented the rest of Qt3DInput.
+	[04a111519ecf]
+
+2016-10-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/materials-py.py:
+	Fiex the materials-py.py example when running in a different
+	directory.
+	[03759db60b7b]
+
+	* PyQt3D.msp:
+	Completed the (initial) support for Qt3DCore.
+	[727cc3606dc3]
+
+2016-10-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* examples/materials-py.py:
+	Fixed the materials-py.py example.
+	[762ad38107ee]
+
+2016-10-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp, examples/assets/LICENSE,
+	examples/assets/chest/Chest.obj, examples/assets/chest/diffuse.webp,
+	examples/assets/cubemaps/miramar/README.TXT,
+	examples/assets/cubemaps/miramar/miramar_negx.webp,
+	examples/assets/cubemaps/miramar/miramar_negy.webp,
+	examples/assets/cubemaps/miramar/miramar_negz.webp,
+	examples/assets/cubemaps/miramar/miramar_posx.webp,
+	examples/assets/cubemaps/miramar/miramar_posy.webp,
+	examples/assets/cubemaps/miramar/miramar_posz.webp,
+	examples/assets/cubemaps/night/night_negx.webp,
+	examples/assets/cubemaps/night/night_negy.webp,
+	examples/assets/cubemaps/night/night_negz.webp,
+	examples/assets/cubemaps/night/night_posx.webp,
+	examples/assets/cubemaps/night/night_posy.webp,
+	examples/assets/cubemaps/night/night_posz.webp,
+	examples/assets/gltf/LICENSE.md,
+	examples/assets/gltf/wine/Wood_Cherry_Original_.jpg,
+	examples/assets/gltf/wine/_2004_old_vine_zinfandel_btl_xlg.jpg,
+	examples/assets/gltf/wine/artezin_bottle.jpg,
+	examples/assets/gltf/wine/wine.bin,
+	examples/assets/gltf/wine/wine.dae,
+	examples/assets/gltf/wine/wine.gltf,
+	examples/assets/gltf/wine/wine0FS.glsl,
+	examples/assets/gltf/wine/wine0VS.glsl,
+	examples/assets/gltf/wine/wine1FS.glsl,
+	examples/assets/gltf/wine/wine1VS.glsl,
+	examples/assets/gltf/wine/wine2FS.glsl,
+	examples/assets/gltf/wine/wine2VS.glsl,
+	examples/assets/gltf/wine/wine3FS.glsl,
+	examples/assets/gltf/wine/wine3VS.glsl,
+	examples/assets/houseplants/bamboo.webp,
+	examples/assets/houseplants/bamboo_normal.webp,
+	examples/assets/houseplants/cover.webp,
+	examples/assets/houseplants/cover_normal.webp,
+	examples/assets/houseplants/cross-bamboo.obj,
+	examples/assets/houseplants/cross-palm.obj,
+	examples/assets/houseplants/cross-pine.obj,
+	examples/assets/houseplants/cross-pot-cover.obj,
+	examples/assets/houseplants/cross-pot.obj,
+	examples/assets/houseplants/cross-shrub.obj,
+	examples/assets/houseplants/cross-spikes.obj,
+	examples/assets/houseplants/cylinder-bamboo.obj,
+	examples/assets/houseplants/cylinder-palm.obj,
+	examples/assets/houseplants/cylinder-pine.obj,
+	examples/assets/houseplants/cylinder-pot-cover.obj,
+	examples/assets/houseplants/cylinder-pot.obj,
+	examples/assets/houseplants/cylinder-shrub.obj,
+	examples/assets/houseplants/cylinder-spikes.obj,
+	examples/assets/houseplants/palm.webp,
+	examples/assets/houseplants/palm_normal.webp,
+	examples/assets/houseplants/pine.webp,
+	examples/assets/houseplants/pine_normal.webp,
+	examples/assets/houseplants/pot.webp,
+	examples/assets/houseplants/pot_normal.webp,
+	examples/assets/houseplants/shrub.webp,
+	examples/assets/houseplants/shrub_normal.webp,
+	examples/assets/houseplants/sphere-bamboo.obj,
+	examples/assets/houseplants/sphere-palm.obj,
+	examples/assets/houseplants/sphere-pine.obj,
+	examples/assets/houseplants/sphere-pot-cover.obj,
+	examples/assets/houseplants/sphere-pot.obj,
+	examples/assets/houseplants/sphere-shrub.obj,
+	examples/assets/houseplants/sphere-spikes.obj,
+	examples/assets/houseplants/spikes.webp,
+	examples/assets/houseplants/spikes_normal.webp,
+	examples/assets/houseplants/square-bamboo.obj,
+	examples/assets/houseplants/square-palm.obj,
+	examples/assets/houseplants/square-pine.obj,
+	examples/assets/houseplants/square-pot-cover.obj,
+	examples/assets/houseplants/square-pot.obj,
+	examples/assets/houseplants/square-shrub.obj,
+	examples/assets/houseplants/square-spikes.obj,
+	examples/assets/houseplants/triangle-bamboo.obj,
+	examples/assets/houseplants/triangle-palm.obj,
+	examples/assets/houseplants/triangle-pine.obj,
+	examples/assets/houseplants/triangle-pot-cover.obj,
+	examples/assets/houseplants/triangle-pot.obj,
+	examples/assets/houseplants/triangle-shrub.obj,
+	examples/assets/houseplants/triangle-spikes.obj,
+	examples/assets/metalbarrel/diffus_black.webp,
+	examples/assets/metalbarrel/diffus_blue.webp,
+	examples/assets/metalbarrel/diffus_green.webp,
+	examples/assets/metalbarrel/diffus_red.webp,
+	examples/assets/metalbarrel/diffus_rust.webp,
+	examples/assets/metalbarrel/diffus_stainless_steel.webp,
+	examples/assets/metalbarrel/diffus_yellow.webp,
+	examples/assets/metalbarrel/metal_barrel.obj,
+	examples/assets/metalbarrel/normal_hard_bumps.webp,
+	examples/assets/metalbarrel/normal_middle_bumps.webp,
+	examples/assets/metalbarrel/normal_no_bumps.webp,
+	examples/assets/metalbarrel/normal_soft_bumps.webp,
+	examples/assets/metalbarrel/specular.webp,
+	examples/assets/metalbarrel/specular_rust.webp,
+	examples/assets/metalbarrel/specular_stainless_steel.webp,
+	examples/assets/obj/ball.obj, examples/assets/obj/toyplane.obj,
+	examples/assets/obj/trefoil.obj, examples/assets/test_scene.dae,
+	examples/assets/textures/pattern_09/diffuse.webp,
+	examples/assets/textures/pattern_09/normal.webp,
+	examples/assets/textures/pattern_09/readme.txt,
+	examples/assets/textures/pattern_09/specular.webp, examples
+	/basicshapes-py.py, examples/materials-py.py:
+	Initial port of the materials-py.py example.
+	[c74a15be464e]
+
+	* PyQt3D.msp, configure.py, examples/basicshapes-py.py:
+	Additions so that the basicshapes-py.py example works.
+	[349d6da71c15]
+
+	* examples/basicshapes-py.py:
+	Added the initial point of the basicshapes-py.py example.
+	[9da8725a7ead]
+
+	* PyQt3D.msp:
+	Improved the handling of entity ownership.
+	[f6b1aa94ca24]
+
+	* PyQt3D.msp, examples/simple-py.py:
+	Fixes to get the simple-py.py example working.
+	[477367731b84]
+
+2016-10-06  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp, configure.py, examples/simple-py.py:
+	Added the minimum set of Qt3DExtras and most dependent Qt3DRender
+	classes.
+	[dde383e81599]
+
+	* PyQt3D.msp:
+	Use the %HideNamespace directive.
+	[2516012b181e]
+
+2016-10-05  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp, sip/Qt3DCore/qsharedpointer.sip,
+	sip/Qt3DCore/qvector.sip:
+	Fixes so that what's implemented so far compiles.
+	[accab79f3a0a]
+
+2016-10-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Fixes for configure.py.
+	[3b562cc69df9]
+
+2016-09-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* configure.py:
+	Changes to configure.py to build Qt3DCore and Qt3DRender.
+	[5122c57f148d]
+
+2016-09-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt3D.msp:
+	Added minimal set of Qt3DCore and Qt3DRender classes needed for the
+	simple-py.py example.
+	[af1b5667a71d]
+
+2016-09-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* METADATA.in, PyQt3D.msp:
+	Added the stub of the Qt3DExtras module.
+	[e0add60456ed]
+
+	* examples/simple-py.py:
+	Added the simple-py.py example.
+	[c5d33c143957]
+
+	* .hgignore, METADATA.in, NEWS, PyQt3D.msp, README, configure.py, rb-
+	product:
+	Initial commit of the skeleton project.
+	[ea3d8a5015c9]
